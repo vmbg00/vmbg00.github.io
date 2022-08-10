@@ -469,6 +469,14 @@ h4.widget_heading {
     padding: 20px 0 0;
 }
 
+#ulNav {
+    display: flex;
+}
+
+#ulNav .ring {
+    order: -1;
+}
+
 .right_header_info ul {
     list-style: none;
     padding: 0;
