@@ -1,6 +1,5 @@
-import { html } from '../node_modules/lit-html/lit-html.js'
 
-let servicesTemplate = () => html`
+let servicesTemplate = () => `
 <section id="why_choose_us" class="dark_bg_blue layout_padding">
     <div class="container">
         <div class="row">
@@ -111,7 +110,3 @@ let servicesTemplate = () => html`
         </div>
     </div>
 </section>`
-
-export function servicesPage(ctx) {
-    ctx.render(servicesTemplate());
-}

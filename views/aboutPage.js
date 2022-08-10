@@ -1,6 +1,5 @@
-import { html } from '../node_modules/lit-html/lit-html.js'
 
-let aboutPageTemplate = () => html`
+let aboutPageTemplate = () => `
 <div id="about" class="dark_bg_blue section layout_padding">
     <div class="container">
 
@@ -22,7 +21,3 @@ let aboutPageTemplate = () => html`
 
     </div>
 </div>`
-
-export function aboutPage(ctx) {
-    ctx.render(aboutPageTemplate());
-}

@@ -1,7 +1,6 @@
-import { html } from "../node_modules/lit-html/lit-html.js";
 
 
-let contactTemplate = () => html`
+let contactTemplate = () => `
 <section id="contact" class="dark_bg_blue layout_padding padding_top_0 margin_top_0">
     <div class="container">
         <div class="row">
@@ -51,11 +50,6 @@ let contactTemplate = () => html`
     </div>
 </section>
 `
-
-export function contactPage(ctx) {
-    ctx.render(contactTemplate());
-}
-
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
        zoom: 11,

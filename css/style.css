@@ -1656,6 +1656,10 @@ input[type="radio"] .styled:checked+label::after {
     margin-left: 50px;
 }
 
+#home {
+	height: 130vh !important;
+}
+
 .right_header_info ul li a {
     color: #fff;
     font-weight: 300;
