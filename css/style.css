@@ -1637,6 +1637,33 @@ input[type="radio"] .styled:checked+label::after {
    background-size: 100% 100%; 
 }
 
+.truck-image {
+	width: 25%;
+	display: none;
+}
+
+.selected {
+	display: block;
+}
+
+.images {
+	background-color: #161C34;
+	display: flex;
+	justify-content: center;
+}
+
+.truck-image img {
+	width: 100%;
+}
+
+.videos {
+	padding: 2em;
+	flex-wrap: wrap;
+	background-color: #161C34;
+	display: flex;
+	justify-content: space-around;
+}
+
 .right_header_info {
     width: 100%;
     float: left;
